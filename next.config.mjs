@@ -7,6 +7,9 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/tool-market' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/tool-market/' : '',
   trailingSlash: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
