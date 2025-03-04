@@ -5,10 +5,6 @@ import { FileText, Key, RotateCw } from "lucide-react";
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { categories, integrations } from "../data/integrations";
-import CategoryFilter from "./components/CategoryFilter";
-import SearchBar from "./components/SearchBar";
-import IntegrationGrid from "./components/IntegrationGrid";
-import Pagination from "./components/Pagination";
 
 const ITEMS_PER_PAGE = 30;
 
