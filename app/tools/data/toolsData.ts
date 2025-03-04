@@ -1,4 +1,5 @@
-import { FileText, Key, Code } from "lucide-react";
+
+import { FileText, Key, Code, Globe } from "lucide-react";
 
 export interface Tool {
   id: string;
@@ -33,5 +34,13 @@ export const tools: Tool[] = [
     longDescription: "Format and beautify SQL queries to improve readability and maintainability.",
     path: "/tools/sql-formatter",
     icon: Code
-  }
+  },
+  /**{
+    id: "api-tester",
+    name: "API Tester",
+    description: "Test API endpoints with different methods",
+    longDescription: "Send HTTP requests to API endpoints with various methods (GET, POST, PUT, DELETE) and customize headers and request body.",
+    path: "/tools/api-tester",
+    icon: Globe
+  }**/
 ];
